@@ -37,7 +37,7 @@ Here's an example of data we get from the third-party bank:
   "names": ["John B. Smith", "InfoLinks Technologies"],
   "emails": ["john@example.com", "alice@example.com"],
   "phoneNumbers": ["(555)-760-9870"],
-  "mercuryFraudTeamComments": "The user and company names match, as does the phone number. Looks like a clear match."
+  "bankuryFraudTeamComments": "The user and company names match, as does the phone number. Looks like a clear match."
 }
 ```
 
@@ -47,7 +47,7 @@ In the attached files (bankury-customers.json, third-party-banks.json), there is
 
 Your job is to go through each linked account, and see if the data there matches the data in the corresponding Bankury account. The shape of the third-party data doesn't exactly match Bankury's, so you'll have to handle the small inconsistencies in a general way.
 
-To help give you guidance on what should be considered a match, the fraud team has added their comments to each linked third-party bank account in the field `mercuryFraudTeamComments`. These are not meant to be considered by your code, as it will have to run on new and unreviewed inputs, but reading over them will help you understand how the fraud team thinks about this data.
+To help give you guidance on what should be considered a match, the fraud team has added their comments to each linked third-party bank account in the field `bankuryFraudTeamComments`. These are not meant to be considered by your code, as it will have to run on new and unreviewed inputs, but reading over them will help you understand how the fraud team thinks about this data.
 
 The exact approach is up to you. Curiosity about the problem and its context are encouraged. A solution should at least:
 
