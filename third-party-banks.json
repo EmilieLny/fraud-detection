@@ -1,0 +1,92 @@
+[
+  {
+    "companyId": 1,
+    "linkId": 1,
+    "bank": "Chase",
+    "names": ["John B. Smith", "InfoLinks Technologies"],
+    "emails": ["john@example.com", "alice@example.com"],
+    "phoneNumbers": ["(555)-760-9870"],
+    "bankuryFraudTeamComments": "The name, company name, and phone numbers match. Looks good!",
+    "isFraud": false
+  },
+  {
+    "companyId": 1,
+    "linkId": 2,
+    "bank": "Wells Fargo",
+    "names": [],
+    "emails": ["james@example.com"],
+    "phoneNumbers": ["(555)-760-9870"],
+    "bankuryFraudTeamComments": "The phone number matches, but there's no other connection. Going to call the customer to ask about this.",
+    "isFraud": true
+  },
+  {
+    "companyId": 2,
+    "linkId": 3,
+    "bank": "Capital One",
+    "names": ["Emmanuel Francisco Windal"],
+    "emails": [],
+    "phoneNumbers": ["555 098 9870"],
+    "bankuryFraudTeamComments": "User's name and phone matches, good to go.",
+    "isFraud": false
+  },
+  {
+    "companyId": 2,
+    "linkId": 4,
+    "bank": "Chase",
+    "names": ["Ullyses S. Strahd"],
+    "emails": ["strahd@example.com"],
+    "phoneNumbers": [],
+    "bankuryFraudTeamComments": "I don't see any connection. Possible fraud?",
+    "isFraud": true
+  },
+  {
+    "companyId": 3,
+    "linkId": 5,
+    "bank": "Wells Fargo",
+    "names": ["Rams Kitchen"],
+    "emails": ["ram@example.fr"],
+    "phoneNumbers": [],
+    "bankuryFraudTeamComments": "The business name matches, user's matches the business name, and the email matches. ",
+    "isFraud": false
+  },
+  {
+    "companyId": 4,
+    "linkId": 6,
+    "bank": "Chase",
+    "names": ["Cy J. Windhorst"],
+    "emails": ["cy1776@example.com"],
+    "phoneNumbers": [],
+    "bankuryFraudTeamComments": "Cy is short for Cyril, and the last names match, so that's probably good.",
+    "isFraud": false
+  },
+  {
+    "companyId": 4,
+    "linkId": 7,
+    "bank": "Huntington",
+    "names": ["Mr. Cyril Windhorst"],
+    "emails": [],
+    "phoneNumbers": ["5550109988"],
+    "bankuryFraudTeamComments": "Direct name match and phone match.",
+    "isFraud": false
+  },
+  {
+    "companyId": 4,
+    "linkId": 8,
+    "bank": "Cheyenne Bank and Trust",
+    "names": ["Cyril", "James Smith"],
+    "emails": [],
+    "phoneNumbers": ["555-010-9988"],
+    "bankuryFraudTeamComments": "The phone numbers match, and the first name of Cyril matches. Probably good.",
+    "isFraud": false
+  },
+  {
+    "companyId": 5,
+    "linkId": 9,
+    "bank": "Capital One",
+    "names": ["IN MEDIA RES PUBLISHING", "Jerry Galdwell"],
+    "emails": ["jerry@example.com"],
+    "phoneNumbers": ["555-132-0911"],
+    "bankuryFraudTeamComments": "This doesn't seem to match at all. Possible fraud?",
+    "isFraud": true
+  }
+]
